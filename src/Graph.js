@@ -15,12 +15,6 @@ function Graph() {
   ];
 
   const options = {
-    markers: {
-      colors: ["#f39c12", "#bdc3c7", "#e67e22"]
-    },
-    theme: {
-      colors: ["#f39c12", "#bdc3c7", "#e67e22"]
-    },
     chart: {
       height: 350,
       width: 300,
