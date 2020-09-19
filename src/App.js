@@ -1,11 +1,19 @@
 import React from "react";
 import "./styles.css";
+import Graph from "./Graph";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <>
+      <div className="App">
+        <img
+          class="logo"
+          src="https://staging-members-rds.herokuapp.com/images/Real-Dev-Squad@1x.png"
+          alt=""
+        />
+        <div class="rdsName">Real Dev Squad</div>
+        <Graph />
+      </div>
+    </>
   );
 }

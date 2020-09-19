@@ -2,3 +2,17 @@
   font-family: sans-serif;
   text-align: center;
 }
+.logo {
+  width: 100px;
+}
+.logo-god {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.rdsName {
+  font-size: 25px;
+  font-weight: bold;
+  color: #e20665;
+  padding: 0 10px;
+}
