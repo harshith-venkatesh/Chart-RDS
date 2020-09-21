@@ -15,6 +15,11 @@ function Graph() {
   ];
 
   const options = {
+    colors: [
+      "red",
+      "#90ee90",
+      
+    ],
     chart: {
       height: 350,
       width: 300,
@@ -22,9 +27,7 @@ function Graph() {
     },
     dataLabels: {
       enabled: false,
-      style: {
-        colors: ["#f39c12", "#bdc3c7", "#e67e22"]
-      }
+      
     },
     stroke: {
       curve: "smooth"
@@ -56,6 +59,7 @@ function Graph() {
       />
       <ReactApexChart
         options={options}
+        color={options.color}
         series={series}
         type="area"
         height={350}
